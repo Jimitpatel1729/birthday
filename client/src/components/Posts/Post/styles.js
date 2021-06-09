@@ -20,6 +20,10 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
+    background: "white",
+    background: "linear-gradient(to right bottom,rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.1))",
+    zIndex: 2,
+    backdropFilter: 'blur(2rem)',
   },
   overlay: {
     position: 'absolute',
@@ -31,7 +35,7 @@ export default makeStyles({
     position: 'absolute',
     top: '20px',
     right: '20px',
-    color: 'white',
+    
   },
   grid: {
     display: 'flex',
@@ -40,6 +44,7 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'space-between',
     margin: '20px',
+    color:'#white',
   },
   title: {
     padding: '0 16px',
@@ -49,4 +54,8 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'space-between',
   },
+  ali:{
+    margin:'0 auto',
+  },
+
 });
